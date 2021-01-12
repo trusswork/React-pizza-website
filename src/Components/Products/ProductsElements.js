@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ProductsContainer = styled.div`
 width: 100vw;
 min-height: 100vh;
-padding: 5rem calc((100vw - 1300px) /2);
+padding: 2rem .5rem;
 background: #150f0f;
 color: #fff;
 `
@@ -12,9 +12,10 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 margin: 0 auto;
+overflow-x: hidden;
 `
 export const ProductCard = styled.div`
-margin: 0 2rem;
+margin: 0 .5rem;
 line-height: 2;
 width: 300px;
 `
@@ -38,7 +39,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 2rem;
+padding: 2rem 0;
 text-align: center;
 `
 export const ProductDesc = styled.p`

@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
-export const GlobalStyle = createGlobalStyle `
+export const GlobalStyle = createGlobalStyle`
 
 *{
     boxing-sizing: border-boxing;
@@ -8,4 +8,7 @@ export const GlobalStyle = createGlobalStyle `
     padding: 0;
     font-family: 'kanit',  sans-serif;
 } 
+html, body{
+    overflow-x:hidden;
+    }
 `
