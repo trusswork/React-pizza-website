@@ -15,7 +15,7 @@ margin: 0 auto;
 overflow-x: hidden;
 `
 export const ProductCard = styled.div`
-margin: 0 .5rem;
+margin: 0 2rem;
 line-height: 2;
 width: 300px;
 `
